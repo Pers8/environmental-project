@@ -21,8 +21,8 @@ a[href^="tel:"] {
 body {
 	position: relative;
 	min-width: 960px;
-    background-color: #53534a;
-    color: #7a7a7a;
+    background-color: #072e53;
+    color: #424B72;
     font: 14px/20px Arial, Helvetica, sans-serif;
 }
 
@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h3 {
     padding-top: 59px;
-    color: #5f604b;
+    color: #1589F9;
     font-size: 22px;
     font-weight: bold;
     line-height: 30px;
@@ -86,7 +86,7 @@ h3 {
 
 h2 {
     padding-top: 66px;
-    color: #5f604b;
+    color: #1589F9;
     font-size: 30px;
     font-weight: bold;
     line-height: 30px;
@@ -171,7 +171,7 @@ a.btn:hover {
 	box-sizing: border-box;
 	margin-bottom:0px;
 	margin-top: 0px;
-    border: 5px solid #717262;
+    border: 5px solid #1589F9;
 }
 
 
@@ -220,13 +220,15 @@ a.btn:hover {
 
 /*header*/
 header {
-    background: url(../images/header_img.jpg) center -240px no-repeat;
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/header_img.jpg) center -240px no-repeat;
+    filter: brightness(100%);
 	display: block;
     overflow: hidden;
     padding: 42px 0 0;
     position: relative;
 
 }
+
 
 .page1 header {
     padding: 108px 0 0px;
@@ -271,7 +273,7 @@ header h1 a img {
 
 .slogan {
     text-align: center;
-    font: 36px/36px 'Yellowtail', cursive;
+    font: 36px/36px 'Century Gothic', cursive;
     color: #e7e6d4;
     padding-bottom: 113px;
 }
@@ -279,7 +281,7 @@ header h1 a img {
 /**Content**/
 
 .content {
-    background-color: #fff;
+    background-color: #1A1C33;
     padding-bottom: 64px;
 }
 
@@ -294,7 +296,7 @@ header h1 a img {
 
 .text1 {
     font: bold 22px/30px 'Marvel', sans-serif;
-    color: #5f604b;
+    color: #1589F9;
     border-bottom: 1px solid #b7b7b6;
     padding-top: 1px;
     padding-bottom: 5px;
@@ -328,7 +330,7 @@ header h1 a img {
 height: 0px;
 border-style: solid;
 border-width: 59px 110px 0 0px;
-border-color: #fff transparent transparent transparent;
+border-color: #1A1C33 transparent transparent transparent;
 }
 
 .img_block span.ll {
@@ -337,7 +339,7 @@ height: 0px;
 z-index: 4;
 border-style: solid;
 border-width: 64px 121px 0 0px;
-border-color: #717262 transparent transparent transparent;
+border-color: #1589F9 transparent transparent transparent;
 }
 
 .img_block span.r {
@@ -347,7 +349,7 @@ border-color: #717262 transparent transparent transparent;
 height: 0px;
 border-style: solid;
 border-width: 59px 0 0 110px;
-border-color: #fff transparent transparent transparent;
+border-color: #1A1C33 transparent transparent transparent;
 }
 
 .img_block span.rr {
@@ -358,7 +360,7 @@ height: 0px;
 z-index: 4;
 border-style: solid;
 border-width: 64px 0 0px 121px;
-border-color: #717262 transparent transparent transparent;
+border-color: #1589F9 transparent transparent transparent;
 }
 
 
@@ -371,7 +373,7 @@ border-color: #717262 transparent transparent transparent;
 height: 0px;
 border-style: solid;
 border-width:  0 0 59px 110px;
-border-color:  transparent transparent #fff transparent;
+border-color:  transparent transparent #1A1C33 transparent;
 }
 
 .img_block span.rrb {
@@ -384,7 +386,7 @@ height: 0px;
 z-index: 4;
 border-style: solid;
 border-width: 0 0 64px 121px;
-border-color:  transparent transparent #717262 transparent;
+border-color:  transparent transparent #1589F9 transparent;
 }
 
 .img_block span.lb {
@@ -394,7 +396,7 @@ top: auto;
 bottom: 0;
 border-style: solid;
 border-width: 0 110px 59px 0px;
-border-color:  transparent transparent #fff transparent;
+border-color:  transparent transparent #1A1C33 transparent;
 }
 
 .img_block span.llb {
@@ -405,11 +407,11 @@ top: auto;
 bottom: 0;
 border-style: solid;
 border-width: 0 121px 64px 0px;
-border-color:  transparent transparent #717262 transparent;
+border-color:  transparent transparent #1589F9 transparent;
 }
 
 .col1 {
-    color: #bbb882;
+    color: #1589F9;
 }
 
 .page1 .bottom_block  {
@@ -419,7 +421,7 @@ border-color:  transparent transparent #717262 transparent;
 
 .bottom_block {
     padding-bottom: 151px;
-    background-color: #f3f2e9;
+    background-color: #11172F;
 }
 
 .bottom_block h3 {
@@ -454,8 +456,8 @@ border-color:  transparent transparent #717262 transparent;
 .bq1 p{
     font-style: italic;
     position: relative;
-    background-color: #dad9d1;
-    background: url(../images/quotes.png) 16px 22px no-repeat #dad9d1;
+    background-color: #424B72;
+    background: url(../images/quotes.png) 16px 22px no-repeat #424B72;
     margin-bottom: 11px;
     padding: 30px 25px 30px 30px;
 }
@@ -470,13 +472,13 @@ border-color:  transparent transparent #717262 transparent;
     height: 0px;
     border-style: solid;
     border-width: 13px 0 0 16px;
-    border-color: #dad9d1 transparent transparent transparent;
+    border-color: #424B72 transparent transparent transparent;
 }
 
 .bq_bot {
     padding-left: 54px;
     font: 16px/18px 'Marvel', sans-serif;
-    color: #5f604b;
+    color: #1589F9;
 }
 
 .gallery {
@@ -507,7 +509,7 @@ a.gal .img_block {
     padding-top: 20px;
     text-align: center;
     font: 22px/30px 'Marvel', sans-serif;
-    color: #5f604b;
+    color: #1589F9;
 }
 
 .cl2 {
@@ -535,7 +537,7 @@ border-color: #fff transparent transparent transparent;
 
 .map .img_block span.ll {
 border-width: 97px 180px 0 0px;
-border-color: #717262 transparent transparent transparent;
+border-color: #1589F9 transparent transparent transparent;
 }
 
 .map .img_block span.r {
@@ -545,13 +547,13 @@ border-color: #fff transparent transparent transparent;
 
 .map .img_block span.rr {
 border-width: 97px 0 0px 180px;
-border-color: #717262 transparent transparent transparent;
+border-color: #1589F9 transparent transparent transparent;
 }
 
 
 .map .img_block span.rb {
 border-width:  0 0 92px 170px;
-border-color:  transparent transparent #fff transparent;
+border-color:  transparent transparent #1A1C33 transparent;
 }
 
 .map .img_block span.rrb {
@@ -564,7 +566,7 @@ height: 0px;
 z-index: 4;
 border-style: solid;
 border-width: 0 0 97px 180px;
-border-color:  transparent transparent #717262 transparent;
+border-color:  transparent transparent #1589F9 transparent;
 }
 
 .map .img_block span.lb {
@@ -574,7 +576,7 @@ top: auto;
 bottom: 0;
 border-style: solid;
 border-width: 0 170px 92px 0px;
-border-color:  transparent transparent #fff transparent;
+border-color:  transparent transparent #1A1C33 transparent;
 }
 
 .map .img_block span.llb {
@@ -585,7 +587,7 @@ top: auto;
 bottom: 0;
 border-style: solid;
 border-width: 0 180px 97px 0px;
-border-color:  transparent transparent #717262 transparent;
+border-color:  transparent transparent #1589F9 transparent;
 }
 
 
@@ -639,7 +641,7 @@ p.pt1 {
 
 
 a.link-1 {
-    color: #bbb882;
+    color: #1589F9;
 }
 
 a.link-1:hover {
@@ -674,22 +676,22 @@ a.link-1:hover {
 
 .img_block.ib1 span.l,
 .img_block.ib1 span.r  {
-border-top-color: #f3f2e9;
+border-top-color: #11172F;
 }
 
 .img_block.ib1 span.lb,
 .img_block.ib1 span.rb  {
-    border-bottom-color: #f3f2e9;
+    border-bottom-color: #11172F;
 }
 
 .img_block.ib2 span.l,
 .img_block.ib2 span.r  {
-border-top-color: #f3f2e9;
+border-top-color: #11172F;
 }
 
 .img_block.ib2 span.lb,
 .img_block.ib2 span.rb  {
-    border-bottom-color: #f3f2e9;
+    border-bottom-color: #11172F;
 }
 
 .img_block.ib2 {
@@ -699,7 +701,7 @@ border-top-color: #f3f2e9;
 
 .price span {
     display: block;
-    background-color: #f3f2e9;
+    background-color: #11172F;
     float: right;
 }
 
@@ -710,7 +712,7 @@ border-top-color: #f3f2e9;
 
 .price a {
     display: block;
-    background-color: #f3f2e9;
+    background-color: #11172F;
     float: left;
 }
 
@@ -783,7 +785,8 @@ footer {
 
 
 #newsletter input {
-   border: 1px solid #d1d1c6;
+    
+   border: 1px solid #1589F9;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -o-box-sizing: border-box;
@@ -792,7 +795,7 @@ footer {
     float: left;
     box-shadow: none !important;
     width: 201px;
-    background-color: #dad9d1;
+    background-color: #424B72;
     color: #92928d;
     font: italic 12px/18px Arial, Helvetica, sans-serif;
     height: 34px;
@@ -814,7 +817,7 @@ footer {
     line-height: 18px;
     float: right;
     color: #fff;
-    background-color: #7e7f6f;
+    background-color: #1589F9;
     padding: 9px 18px 7px 16px;
     display: block;
     cursor: pointer;
@@ -823,6 +826,7 @@ footer {
 
 #newsletter a:hover {
     background-position: 0 bottom;
+    box-shadow: 0 5px 30px #1589F9;
 }
 
 
@@ -834,7 +838,7 @@ footer {
     text-align: left;
     font-size: 10px;
     line-height: 13px;
-    color: #fff;
+    color: #1589F9;
     display: block;
     overflow: hidden;
     z-index: 999;
@@ -859,9 +863,9 @@ footer {
     -o-box-sizing: border-box;
     box-sizing: border-box; 
     display: none;  
-    background: #dad9d1;
-    border: 1px solid #d1d1c6;
-    color: #92928d;
+    background: #424B72;
+    border: 1px solid #1589F9;
+    color: #1589F9;
     left: 0px;
     height: 34px;
     overflow: hidden;
