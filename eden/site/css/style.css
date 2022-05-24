@@ -163,16 +163,6 @@ a.btn:hover {
 }
 
 
-.img_inner {
-	max-width: 100%;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	box-sizing: border-box;
-	margin-bottom:0px;
-	margin-top: 0px;
-    border: 5px solid #1589F9;
-}
 
 
 

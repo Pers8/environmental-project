@@ -2,7 +2,7 @@
 .menu_block  {
 	z-index: 999;
 	padding: 0px 0 0;
-	background-color: #e7e6d4;
+	background-color: #ED9A05;
 	position: relative;
 	padding: 31px 0 19px;
 
@@ -12,9 +12,10 @@
 	padding: 27px 0 20px;
 }
 
+
 .menu_block nav {
 	padding-left: 73px;
-    font-family: 'Marvel', sans-serif;
+    font-family: 'Century Gothic', sans-serif;
 }
 
 
@@ -61,7 +62,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	display: block;
 	position: relative;
 	z-index: 999;
-	color: #5f604b;
+	color: #fff;
 
 
 }
@@ -71,7 +72,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 .sf-menu>li>a:hover,
 .sf-menu>li.current>a,
 .sf-menu>li.sfHover>a {
-	color: #ce9f56;
+	color: #434B6F;
 }
 
 .sf-menu>li.current,.sf-menu>li:hover, .sf-menu>li.sfHover {
